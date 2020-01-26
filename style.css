@@ -1,36 +1,45 @@
     body {
         font-family: "Montserrat", sans-serif;
+        text-align: center;
     }
     
-    h1 {
-        font-size: 3.5rem;
-        line-height: 1.5;
-        font-weight: 900;
-    }
-    
-    h2 {
-        font-size: 3rem;
-        font-weight: 900;
-        line-height: 1.5;
-    }
-    
-    h3 {
-        font-size: 1.5rem;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-weight: 900;
     }
     
     p {
         color: #8f8f8f;
     }
+    /* Containers */
     
     .container-fluid {
-        padding: 3% 15% 10%;
+        padding: 7% 15%;
     }
+    /* Selectors */
     
-    #title {
+    .colored-section {
         background-color: #ff4c68;
         color: #ffffff;
-        /* margin-bottom: 10%; */
+    }
+    
+    .white-section {
+        background-color: #ffffff;
+    }
+    /* Headings Section */
+    
+    .big-heading {
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    
+    .section-heading {
+        font-size: 3rem;
+        line-height: 1.5;
     }
     /* Navigation Bar */
     
@@ -57,7 +66,12 @@
     .download-btn {
         margin: 5% 3% 5% 0;
     }
-    /*Title Image*/
+    /*Title*/
+    
+    #title .container-fluid {
+        padding: 3% 10% 15%;
+        text-align: left;
+    }
     
     .iphone-img {
         transform: rotate(25deg);
@@ -68,10 +82,11 @@
     /* Features */
     
     #features {
-        text-align: center;
-        padding: 7% 15%;
-        background-color: #ffffff;
         position: relative;
+    }
+    
+    .feature-title {
+        font-size: 1.5rem;
     }
     
     .features-img {
@@ -86,8 +101,11 @@
     
     #testimonials {
         background-color: #ef8172;
-        color: #ffffff;
-        text-align: center;
+    }
+    
+    .testimonial-text {
+        font-size: 3rem;
+        line-height: 1.5;
     }
     
     .testimonial-img {
@@ -96,12 +114,7 @@
         margin: 20px;
     }
     
-    .carousel-item {
-        padding: 7% 15%;
-    }
-    
     #press {
-        text-align: center;
         background-color: #ef8172;
         padding-bottom: 3%;
     }
@@ -116,30 +129,15 @@
         padding: 100px;
     }
     
-    .pricing-column {
-        padding: 3% 2%;
-        text-align: center;
-    }
-    /* Call to Action */
-    
-    #cta {
-        background-color: #ff4c68;
-        text-align: center;
-        padding: 5% 15%;
-        color: #ffffff;
-    }
-    
-    .cta-text {
-        font-size: 3.5rem;
-        font-weight: 900;
+    .pricing-text {
+        font-size: 3rem;
         line-height: 1.5;
     }
-    /* Footer */
     
-    #footer {
-        text-align: center;
-        padding: 5% 15%;
+    .pricing-column {
+        padding: 3% 2%;
     }
+    /* Footer */
     
     .footer-icon {
         padding: 2% 1%;
